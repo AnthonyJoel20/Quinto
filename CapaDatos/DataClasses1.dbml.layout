@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="6118f16e-08dd-4035-a719-5943f54aec91" absoluteBounds="0.75, 1.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClasses1DataContext/TBL_ROL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dcb04203-210f-45f3-b59a-37c06d02239e" absoluteBounds="0.765, 1.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="34e74506-6850-453e-bdad-bb1591db2ae2" absoluteBounds="3.5, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DataClasses1DataContext/TBL_USUARIO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="62ad2c13-96e1-4007-b0be-c8c6c1459183" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.16429768880208); (3.5 : 2.16429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/TBL_ROL/TBL_ROL_TBL_USUARIO" />
+      <nodes>
+        <classShapeMoniker Id="6118f16e-08dd-4035-a719-5943f54aec91" />
+        <classShapeMoniker Id="34e74506-6850-453e-bdad-bb1591db2ae2" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
